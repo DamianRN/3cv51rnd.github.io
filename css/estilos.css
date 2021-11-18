@@ -1,23 +1,43 @@
 html{
-  font-family: sans-serif;text-align: center
+  font-family: sans-serif;
+  text-align: center; 
+  background-color: beige;
 }
-
 body{
-  display: inline-block; text-align: left
+  display: inline-block; 
+  text-align: left
 }
-
 label, legend {
   font-weight: bold
 }
-
 *:required, .obligatorio {
-  border: thin solid blue
+  border: thin solid rgb(2, 2, 43)
 }
-
 input[type=number], .numero {
   text-align: right
 }
-
 dfn {
   font-weight: bold
+}
+
+p{
+  color: rgb(185, 148, 27);
+}
+
+h1{
+  color: brown;
+}
+
+button{
+  background-color: chocolate;
+  color: cornsilk;
+}
+
+footer{
+  color: crimson;
+}
+
+textarea{
+  background-color: rgb(197, 116, 116);
+  color: floralwhite;
 }
